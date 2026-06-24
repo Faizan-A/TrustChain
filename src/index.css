@@ -1,0 +1,26 @@
+.parents{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.Card{
+  flex: 1 1 200px;
+  padding: 10px;
+  width: 250px;
+  border: 2px solid brown;
+  border-radius: 15px;
+  text-align: center;
+}
+.Card img{
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+
+}
+.Card button{
+  border-radius: 10px;
+}
